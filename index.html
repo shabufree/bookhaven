@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOKHAVEN - Your Sanctuary for Stories, Knowledge, and Adventure!</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            height: 100%;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #1a202c;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background-color: rgba(26, 32, 44, 0.8);
+        }
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        .logo img {
+            width: 40px;
+            height: 40px;
+            margin-right: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 1.5rem;
+        }
+        nav a:hover {
+            color: #63b3ed;
+        }
+        .buttons button {
+            padding: 0.5rem 1rem;
+            margin-left: 1rem;
+            border: none;
+            border-radius: 0.25rem;
+            cursor: pointer;
+        }
+        .sign-in {
+            background-color: white;
+            color: #1a202c;
+        }
+        .librarian {
+            background-color: #2b6cb0;
+            color: white;
+        }
+        main {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background-image: url('/placeholder.svg?height=1080&width=1920');
+            background-size: cover;
+            background-position: center;
+            padding: 2rem;
+        }
+        h1 {
+            font-size: 2.5rem;
+            max-width: 800px;
+            margin-bottom: 2rem;
+        }
+        .get-started {
+            background-color: #4299e1;
+            color: white;
+            padding: 0.75rem 2rem;
+            font-size: 1.25rem;
+            border: none;
+            border-radius: 9999px;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #2b6cb0;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .contact-info, .copyright {
+            display: flex;
+            flex-direction: column;
+        }
+        .social-icons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        .social-icons img {
+            width: 24px;
+            height: 24px;
+        }
+        @media (max-width: 768px) {
+            nav {
+                display: none;
+            }
+            footer {
+                flex-direction: column;
+                text-align: center;
+            }
+            .copyright {
+                margin-top: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="/placeholder.svg?height=40&width=40" alt="Bookhaven Logo">
+                <span>BOOKHAVEN</span>
+            </div>
+            <nav>
+                <a href="#features">Features</a>
+                <a href="#hours">Library Hours</a>
+                <a href="#help">Help/FAQ</a>
+                <a href="#ask">Ask a Librarian</a>
+            </nav>
+            <div class="buttons">
+                <button class="sign-in">SIGN IN</button>
+                <button class="librarian">LIBRARIAN</button>
+            </div>
+        </header>
+        <main>
+            <h1>Your Sanctuary for Stories, Knowledge, and Adventure!</h1>
+            <button class="get-started">Get Started</button>
+        </main>
+        <footer>
+            <div class="contact-info">
+                <h2>CONTACT US</h2>
+                <p>+63900-000-0000</p>
+                <p>mail@library.uc.edu.ph</p>
+                <p>University of Cebu - Main Campus</p>
+                <p>Sanciangko St., Cebu City</p>
+                <p>6000</p>
+            </div>
+            <div class="copyright">
+                <p>Copyright 2024, BOOKHAVEN All Rights Reserved.</p>
+                <div class="social-icons">
+                    <img src="/placeholder.svg?height=24&width=24" alt="Facebook">
+                    <img src="/placeholder.svg?height=24&width=24" alt="LinkedIn">
+                    <img src="/placeholder.svg?height=24&width=24" alt="Twitter">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
